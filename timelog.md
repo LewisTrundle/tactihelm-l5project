@@ -48,12 +48,26 @@
 ### 13 Oct 23
 * *6 hours* Connecting the bike radar to react native app via Bluetooth.
 
-## Week 5 [16/10/23]
+
+## Week 5 [16/10/23] - 29.5 hours
 ### 16 Oct 23
 * *4 hours* Continuing to connect bike radar to react native app.
 * *2.5 hours* Creating user survey.
 ### 17 Oct 23
 * *1 hour* Supervisor meeting
+* *1 hour* Continuing user survey.
+### 18 Oct 23
+* *2.5 hours* Finalised user survey.
+### 19 Oct 23
+* *4.5 hours* Started creating react native app to connect to bluetooth devices.
+### 20 Oct 23
+* *2 hours* Connecting both devices to app.
+* *2 hours* General app work.
+### 21 Oct 23
+* *4.5 hours* General app work.
+### 22 Oct 23
+* *5.5 hours* General app work.
+
 
 ## Week 6 [23/10/23]
 
