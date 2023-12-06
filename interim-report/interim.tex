@@ -6,21 +6,21 @@
 
 % for alternative page numbering use the following package
 % and see documentation for commands
-%\usepackage{fancyheadings}
+\usepackage{fancyheadings}
 
 
 % other potentially useful packages
 %\uspackage{amssymb,amsmath}
-%\usepackage{url}
-%\usepackage{fancyvrb}
-%\usepackage[final]{pdfpages}
+\usepackage{url}
+\usepackage{fancyvrb}
+\usepackage[final]{pdfpages}
 
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Title of project placed here}
-\author{Name of author placed here}
-\date{Date of submission placed here}
+\author{Lewis Trundle}
+\date{15th December 2023}
 \maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -32,10 +32,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}\label{intro}
 
-briefly explain the context of the project problem
+\subsection{Motivation}
+Each year, road-traffic accidents account for 1.35 million deaths worldwide, with cyclists composing of 41,000 of these fatalities \cite{world2018global}. The economic burden associated with road accidents in the EU alone is estimated to amount to 236 billion euros annually \cite{costoftransport}. Despite the EU achieving an average annual reduction of 3\% in motor vehicle related fatalities, between 2010 and 2018, the fatality rate for cyclist remained the same across that same period \cite{adminaite2020safe} - emphasising the lack of attention that cyclists have received regarding road safety.
 
-\subsection{A subsection}
-Please note your proposal need not follow the included section headings - this is only a suggested structure. Also add subsections etc as required
+One of the leading causes of fatalities among cyclists are collisions with a motorised vehicle \cite{BIL20101632}, being involved in 78\% of cyclists fatalities in the EU \cite{adminaite2015making}. Although a collision with another vehicle may occur from any angle, collisions where the offending vehicle crashes from behind the cyclist causes the largest proportion of fatalities of all crash directions \cite{BIL20101632}. Despite much previous work investigating how cyclist safety can be improved using safety systems implemented within other road vehicles [[Potential of ITS to improve safety and mobility of VRUs]], [[Can cyclist safety be improved with intelligent transport systems]], [[PROactive Safety for PEdestrians and CyclisTs]], [[Towards a connected bicycle to communicate with vehicles and infrastructure - Multimodel alerting interface with Networked Short-Range Transmissions (MAIN-ST)]], [[Increasing Traffic Safety with Real-Time Edge Analytics and 5G]], relatively few studies have explored how cyclist safety can be improved from the perspective of the cyclist [[Hazard Notifications for Cyclists - Comparison of Awareness Message Modalities in a Mixed Reality Study]], [[How do warnings influence cyclists' reaction to conflicts - Comparing acoustic and vibro-tactile warnings in different conflicts on a test track]]. 
+
+This idea informs the next questions: what factors contributes towards road-traffic accidents, and how can they be prevented? A UK governmental report found that the primary contributing factor across all vehicles involved in an accident with a cyclist was the issue of *“failure to look properly"* \cite{factsonpedalcyclists}. While one such solution to this problem could be heightened road-safety education for road vehicles [CITE SOMETHING], the same solution is not as easily applied to cyclists. Unlike motor vehicles, cyclists require much greater vigilance, due to their inherent limitations such as a lack of field of vision, safety technology, and lower mass [cite]. Notably, the use of such technology in cyclists is on the rise [CITE], with modern bike radars able to detect and notify cyclists of vehicles approaching from behind - functioning akin to rear-view mirrors in motor vehicles, a component which bicycles do not typically have [FOOTNOTE saying there are actually cycling mirrors]. However, such radars, which are typically connected to the cyclists mounted smartphone or bike computer, require diverting their attention from the road to the screen. [SENTENCE AND CITATION DESCRIBING WHY THIS IS BAD]. What is needed is a device to communicate the information from a bike radar, in a way which does not distract a cyclist.
+
+^^^
+mention above that there is much opportunity for interaction with helmets, as proven by these references:
+- [[Interaction opportunities around helmet design]] - paper shows possibility of wearable tech to show unique information. This helmet was fitted with LEDs to communicate to other road users.
+- [[What you said about where you shook your head - a hands-free implementation of a location-based notification system]] - First envisioning of a smart helmet which can display information to other road users via light.
+
+[[A conceptual framework for road safety and mobility applied to cycling safety]] - cyclists have lower mass. LOOK THROUGH THIS
+[[Making walking and cycling on Europe's roads safer]] - 52\% of cyclist accidents are from cars
+
+\subsection{Problem Statement and Aim}
 
 example references: \cite{BK08}
 
@@ -47,7 +59,7 @@ clearly state the problem to be addressed in your forthcoming project. Explain w
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Background Survey}
 
-present an overview of relevant previous work including articles, books, and existing software products. Critically evaluate the strengths and weaknesses of the previous work.
+\subsection{Technologu}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Proposed Approach}
