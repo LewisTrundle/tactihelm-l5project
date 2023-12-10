@@ -14,6 +14,12 @@
 % get degree symbols
 \usepackage{gensymb}
 
+% superscript for dates
+\newcommand{\ts}{\textsuperscript}
+
+% allow custom labels for lists
+\usepackage{enumitem}
+
 
 % other potentially useful packages
 %\uspackage{amssymb,amsmath}
@@ -90,18 +96,18 @@ Visual cues were delivered using a flashing light on the left and right side of 
 Despite the potential of using different communication modalities while cycling, there are drawbacks to each. Waard et al. investigated the effect that listening to music had on a cyclist \cite{DEWAARD2011626}. They found that cyclists' auditory perception deteriorated when doing so, with 68\% of participants missing auditory cues. Notably, no negative effects were recorded when participants only used one earbud.
 A possible way these effects could be reduced is by using bone conducting headphones\footnote{These differ from regular headphones in that instead of projecting air pressure waves directly into a wearers' ear, they instead use the cheekbones to transfer auditory signals directly to the cochlea \cite{littler1952hearing}.} \cite{wolfe2016distracted}. However May and Walker \cite{may2017effects} studied the use of bone conduction headphones, and found that when distractor sounds were played through them, a wearers' ability to localise critical environment sounds worsened.
 
-Erdei et al, reported that the perception of vibro-tactile signals during cycling worsen in environments where the surface causes haptic interference \cite{erdei2020comparing, doi:10.1080/15389588.2021.1985113}. However, they also believed this could be overcame by adjusting how the vibro-tactile stimuli was delivered to the cyclist. Author et al., delivered tactile signals to the hands of participants, finding that they recognised particular signals 87.4\% of the time \cite{10.1145/1979742.1979760}. Tacticyle \cite{10.1145/2371574.2371631} delivered vibrations through the handlebars as they believed, *“these are the only parts of the bicycle that the rider constantly touches during the ride”*. This statement would be proven correct by Wolfgang et al. who found that cyclists like to keep their hands on the handlebars as much as possible \cite{10.1145/3152832.3152871}. Furthermore, Clark et al. further studied cyclists use of technology while cycling and through findings of an ethnographic study, they introduced the concept that the handlebars are a ‘zonal space’ \cite{10.1145/3544548.3580971}. This alluded to the possibility of increasing a potential stimuli vocabulary, by encoding information across various zones of the handlebars. Companies have even capitalised on the capabilities of the handlebars for vibro-tactile feedback, with products such as smrtgrips \cite{smartgrips} which can be attached to the handlebars of any bicycle.
+Erdei et al, reported that the perception of vibro-tactile signals during cycling worsen in environments where the surface causes haptic interference \cite{erdei2020comparing, doi:10.1080/15389588.2021.1985113}. However, they also believed this could be overcame by adjusting how the vibro-tactile stimuli was delivered to the cyclist. Tacticyle \cite{10.1145/2371574.2371631} delivered vibrations through the handlebars as they believed, \textit{“these are the only parts of the bicycle that the rider constantly touches during the ride”}. This statement would be proven correct by Hochleitner et al. who studied how cyclists give input to a system whilst staying on the move - finding that cyclists like to keep their hands on the handlebars as much as possible \cite{10.1145/3152832.3152871}. Furthermore, Porcheron et al. further studied cyclists use of technology while cycling and through findings of an ethnographic study, they introduced the concept that the handlebars are a ‘zonal space’ \cite{10.1145/3544548.3580971}. This alluded to the possibility of increasing a potential stimuli vocabulary, by encoding information across various zones of the handlebars. Companies have even capitalised on the capabilities of the handlebars for vibro-tactile feedback, with products such as smrtGRiPs \cite{smartgrips} which can be attached to the handlebars of any bicycle.
 
 
 \subsection{Encoding Information using Vibro-tactile Stimuli}
 \subsubsection{Coding Direction}
 Much early work utilising vibro-tactile stimuli would explore how tactile displays could be incorporated alongside visual displays, to extend a computer systems’ functionality. Pentland, investigated how tactile displays could be used in wearable computing - suggesting they could be used as directional displays to aid navigation \cite{629923}. Pentland would shortly realise this idea of a wearable navigational display less than a year later in 1998, where they developed an adjustable vest which provides directional navigational instructions via vibrations \cite{729547}. These directions were conveyed by vibrating a grid of motors - which were sewn into the back of the vest - in a specific pattern. For example, to indicate a right turn, the motors were activated sequentially, from left to right. Research into the design of such a haptic vest would continue over the years, including a study, investigating its efficiency in conveying directional instructions across different gravity conditions \cite{998954}. Although the study found that the perceived intensity of vibrotactile signals did not change across the varying conditions, it did comment on the effect that cognitive load has on a persons ability to interpret tactile signals - suggesting the need for further psychophysical experiments investigating haptic perception.
 
-This method of communicating direction makes use of a vibro-tactile illusion known as ‘sensory saltation' - a phenomenon where successive pulses delivered to equidistant regions of a body part simulates the feeling of movement across the body part \cite{geldard1975sensory}. Authors author et al. and author et al., studied different types of sensory illusions, dividing haptic illusions into two types: sensory saltation, and funnelling, where the tactor signal is perceived in the middle of two simultaneously activated tactors \cite{5710913, s150407913}. How spatial characteristics of vibro-tactile motors effect the perception of such illusions is investigated by Roger W., who proves that illusions such as sensory saltation are just as effective as veridical sensations at conveying directional information \cite{cholewiak2000generation}.
+This method of communicating direction makes use of a vibro-tactile illusion known as ‘sensory saltation' - a phenomenon where successive pulses delivered to equidistant regions of a body part simulates the feeling of movement across the body part \cite{geldard1975sensory}. Authors author et al. and author et al., studied different types of sensory illusions, dividing haptic illusions into two types: sensory saltation, and funneling, where the tactor signal is perceived in the middle of two simultaneously activated tactors \cite{5710913, s150407913}. How spatial characteristics of vibro-tactile motors effect the perception of such illusions is investigated by Roger W., who proves that illusions such as sensory saltation are just as effective as veridical sensations at conveying directional information \cite{cholewiak2000generation}.
 
 Much later research would continue investigating how vibro-tactile displays could be effectively used to provide navigational aids. Van Erp would introduce a new direction coding scheme where the on-body location of a localised vibration would indicate the direction of travel \cite{van2000tactile}. Using a haptic vest similar to \cite{729547}, they would instead attach motors in a 360\degree{} horizontal plane around the wearers body, allowing directions in a 360\degree{} circumference to be conveyed. The benefit of only requiring a linear array of motors would lead to these systems being implemented on smaller wearables, typically a belt \cite{10.1145/1463160.1463179, tsukada2004activebelt, 10.1145/2449396.2449450}. Van Erp would also later investigate the spatial resolution of such a system, suggesting users could effectively navigate using a spatial resolution of only 45\degree{} (1 motor in each cardinal and oblique direction) \cite{10.1145/1060581.1060585}. Quantitively proven to reduce cognitive load on the user \cite{VANERP2004247}. This method of communicating direction would become the norm for tactile navigational displays.
 
-\subsubsection{Coding Distance}
+\subsubsection{Coding Distance}\label{sec:coding-distance}
 Although a simple navigational system may only convey direction to a user, a more effective one would also typically convey an idea of distance \cite{burntt2002empirical}. Parameters to encode information is studied by van Erp, who explores spatial and temporal effects of vibro-tactile stimuli \cite{guidelines}. The paper serves as a set guidelines for implementing a vibro-tactile system and suggests that a vibro-tactile display affords four parameters which can be adjusted: the location, timing, frequency, and amplitude of a vibration. How parameters such as these can be used is described by Brewster and Brown \cite{10.5555/976310.976313}, who introduce \textit{Tactons} - structured, abstract messages, whose meaning is encoded using the parameters of cutaneous perception\footnote{Cutaneous perception refers to receptors under the surface of the skin. The cutaneous senses are multimodal and includes sensations of temperature, pressure, and vibration.}. The authors expand on the parameters suggested by van Erp, explicitly describing how temporal characteristics of a vibration, such as rhythm and duration can be used.
 
 Previous studies have investigated how these parameters can be used to create coding schemes for distance. van Erp et al. investigated the effectiveness of different distance coding schemes to aid navigation for pedestrian participants \cite{10.1145/1060581.1060585}. Two main categories of distance coding schemes were used; the first was a monotonic relation between distance and rhythm - as the distance got smaller, the rhythm got faster. The second category was a three-phase model, which varied the delay duration between vibration pulses, depending on which phase of the navigation task the participant was in. Navigational directions were encoded by the location of the vibro-tactile motors on a belt which participants wore. Notably, there was no difference found in participant performance when comparing those with access to distance information, to those without - concluding that this may be due to the confounding of the distance information with the temporal resolution of the direction information. Straub et al. conducted a similar experiment, also using a vibro-tactile belt to perform navigational tasks with pedestrians \cite{5326374}. Three experiments were preformed to explore how the encoding of distance using the parameters of rhythm, intensity, and frequency, affected the walking speed of participants. Similarly to van Erp et al. \cite{10.1145/1060581.1060585}, no notable differences to walking speed were found. However, this is likely attributable to the confounding of parameters, as both rhythm and intensity are simultaneously varied in the experimental coding schemes.
@@ -109,7 +115,12 @@ Previous studies have investigated how these parameters can be used to create co
 The inconclusive findings from van Erp et al. \cite{10.1145/1060581.1060585} and Straub et al. \cite{5326374} identified a need to further explore how distance can be coded using temporal aspects of vibro-tactile stimulation, something which the skin is very sensitive to \cite{doi:10.1068/p5014}. McDaniel et al. utilised tactile rhythms to create a coding scheme to convey intimate, personal, interpersonal, and social distances to the blind \cite{10.1145/1520340.1520718}. The duration of a pulse was kept to a constant 50ms, but as the distance increased, the delay between pulses increased, similar to van Erp et al.'s monotonic scheme \cite{10.1145/1060581.1060585}. However, this experiment proved effective, and showed that given a small training period, users were able to effectively identify different tactile rhythms and associate them with their respective distances. Pielot et al. further studied distance encodings by developing a tactile display which presents the position and distance of other team members in a fast-paced 3D multiplayer game \cite{10.1145/1753326.1753581}. They compared rhythm-based, duration-based, and intensity-based schemes. Participants found their rhythm-based scheme the easiest to judge distance. Furthermore, they proved it was possible to accurately use vibro-tactile signals to convey distance in an environment with high cognitive demand. Asif et al. \cite{10.1145/1868914.1868923} further studied these parameters, but instead explored how they could be combined to compare three rhythm-based schemes: rhythm only, rhythm and intensity, and rhythm and duration\footnote{The rhythm only scheme decreased the number of pulses as the distance decreased, but the overall rhythm duration was kept constant, meaning the pulse duration also increased. The rhythm and intensity scheme was similar to the rhythm only scheme, but it additionally decreased the intensity and distance decreased. The rhythm and duration scheme also decreased the number of pulses as the distance decreased, but the pulse duration was kept constant, meaning the overall rhythm duration decreased.}. These schemes were used in-vehicle, to indicate different categories of distance until an approaching turn. The results found that the combination of rhythm and duration was the easiest for participants to learn and led to the smallest amount of navigational mistakes.
 
 
-
+\subsection{Interacting using Helmets while Cycling}
+[[Spatial Discrimination of Vibrotactile Stimuli Around the Head]] - info to do with vibro around head. Useful when talking about location coding schemes
+\cite{10.1145/2559206.2574803, 10.1145/1240866.1241027}
+[[https://oaktrust.library.tamu.edu/handle/1969.1/151968]]
+[[http://personales.upv.es/thinkmind/dl/conferences/vehicular/vehicular_2020/vehicular_2020_2_20_38002.pdf]]
+[[https://link.springer.com/chapter/10.1007/978-3-642-39802-5_3]]
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -118,21 +129,31 @@ The inconclusive findings from van Erp et al. \cite{10.1145/1060581.1060585} and
 state how you propose to solve the software development problem. Show that your proposed approach is feasible, but identify any risks.
 
 \subsection{TactiHelm System Design}
-The current TactiHelm helmet builds off previous work from Vo et al. \cite{10.1145/3411763.3451580}. The inside lining of the helmet is equipped with three 10mm diameter, three volt ERM coin cell tactile actuators, placed equidistant along the midline of the helmet, as shown in Figure 1. These actuators are driven by PWM signals from 0 to 3V generated by an Arduino Uno micro-controller, as seen in Figure 2. This is equipped with an HC-06 Bluetooth module to allow for remote communication from a custom-built React Native application. This application can run on an Android mobile phone - providing remote control over each actuator. Also connected to the application is a Garmin Varia RTL515 bike radar \cite{garminradar}. Designed to attach to the back of a bicycle, the radar can detect vehicles up to a range of 140 metres, with a viewing angle of 220\degree{}. It connects to the mobile application via Bluetooth Low Energy - transmitting the distance and speed of any detected vehicles. The mobile application acts as a mediary to allow communication between the bike radar and micro-controller, as seen in Figure 3.
-
-\subsection{Design Considerations}
-Following from our design of the TactiHelm system, we are left with the following design considerations.
-
-The first step is to gain a general understanding as to how cyclists' may use such a system and to understand beliefs towards pre-existing safety technologies. Answers to these considerations and more are explored in Section \ref{sec:survey}.
-
-The next consideration regards what information we should convey to the user to create an effective hazard awareness system. As previously mentioned, the Garmin Varia bike radar provides us with the speed and distance of an approaching vehicle within 140 metres. From this, we seek to understand which metric (or metrics), from distance, speed, or some arbitrary combination of the two, is most suitable for signifying an approaching vehicle to a user? The answer to such as question is explored with a lab-study described in Section \ref{sec:lab-study}.
+\subsubsection{Helmet Design}\label{sec:helmet-design}
+The current TactiHelm helmet builds off previous work from Vo et al. \cite{10.1145/3411763.3451580}. The inside lining of the helmet is equipped with 10mm diameter, three volt ERM coin cell tactile actuators (tactors), placed along the midline of the helmet. The exact number and spacing of these actuators is not yet defined; however, is explored more in our lab-based study discussed in Section \ref{sec:lab-study}. These actuators are driven by PWM signals from 0 to 3V generated by an Arduino Uno micro-controller \cite{arduinouno}. PWM can represent the use of an analogue signal \cite{kart2001pulse}, allowing us to more precisely vary the range of discrete values used to control the intensity of the tactile actuators. The Arduino Uno has six PWM pins, thus if we wish to vary the intensity of the actuators, we are limited to just six of them. The circuit is also equipped with an HC-06 Bluetooth module, to allow for remote control over the actuators. This Bluetooth module communicates using Bluetooth Classic \cite{hc06}. A diagram of the full circuit can be seen in Figure 1.
 
 
-- how should distance be split up? what concepts of distance do users understand?
-- The same above but for speed? Additionally, is speed necessary?
-- how is this communicated via tactile cues?
-- user comfort? user distraction? is it safe and comfortable to use on the roads?
-All of these we seek to answer in our pre-user study.
+\subsubsection{Bike Radar Design}
+On the other side of the TactiHelm system is the Garmin Varia RTL515 bike radar \cite{garminradar}. Designed to attach to the back of a bicycle, the radar can detect vehicles up to a range of 140 metres, with a viewing angle of 220\degree{}. The radar allows for two communication methods: Bluetooth Low Energy (BLE) and ANT+. Communicating using BLE provides us with access to the distance and speed of each detected vehicle. Notably, BLE does have limitations such as a smaller bandwidth compared to ANT+ \cite{bluetoothlimitations}. However, this is not a concern since only a relatively small amount of data is being transferred. From this, the following questions remain:
+\begin{itemize}
+    \item Which metric (or metrics), from distance, speed, or some arbitrary combination of the two, is most suitable for signifying an approaching vehicle to a user?
+    \item How can this metric be conveyed to a user? Should continuous values be encoded, or should the metric be defined into categories? What do these arbitrary categories mean to users? 
+    \item How can this information be encoded using vibro-tactile cues?
+\end{itemize}
+Answers to such questions are explored with a lab-study investigating different cues and encodings, described in Section \ref{sec:lab-study}.
+
+
+\subsubsection{App Design}
+To allow communication between the bike radar, and Arduino, a custom-built React Native application was developed, to act as a mediary between the two devices, as seen in Figure 2. The current state of the application can run on an Android mobile phone; however, future versions of the app would ideally also run on an iOS device. Currently, the following functionality is possible with the application:
+\begin{itemize}
+    \item Connect to the HC-06 Bluetooth module using Bluetooth Classic
+    \item Connect to the Garmin Varia using Bluetooth Low Energy
+    \item Receive the distance and speed information of each detected vehicle from the bike radar.
+    \item Manually turn on/off and control the vibration intensity of each connected actuator.
+\end{itemize}
+
+What remains to be implemented is a pipeline between the bike radar and Arduino. More specifically, the information received via BLE from the bike radar should be parsed and encoded into the relevant vibro-tactile cues. However, this is not possible, until such encodings to cues are defined, as discussed further.
+
 
 \subsection{Exploratory Survey}\label{sec:survey}
 To identify the requirements of a hazard notification system such as TactiHelm, an online survey was conducted to understand cyclists' attitudes and behaviours towards safety while cycling. The survey used a mixture of open response, Likert scale, and multiple choice questions to explore topics such as use of safety equipment and techniques and causes of injuries. It was distributed to various cycling groups around Glasgow, and respondents were urged to answer as truthly and honestly as possible. We emphasised that we did not intend to judge any participants' answers on their safety, legality, or 'sensibility' - instead we only wish to gather insights for use for the project.
@@ -151,21 +172,82 @@ Finally, participants were provided with a brief description of TactiHelm and we
 
 
 \subsection{Lab Study - Investigating Vibro-tactile Distance Encodings}\label{sec:lab-study}
+A key idea which remains to be investigated is how a given metric can be encoded using vibro-tactile cues to effectively warn a cyclist of an approaching vehicle. The following section details a future lab-study to be conducted, to explore how distance can be effectively encoded for our system. Distance is chosen as it is assumed to be the most appropriate metric for the described system.
 
+\subsubsection{Chosen Parameters}
+As previously mentioned in Section \ref{sec:coding-distance}, a vibro-tactile display affords four parameters which can be adjusted: the location, timing, frequency, and amplitude of a vibration \cite{guidelines}. In our described system, the \textit{'intensity'} of a vibration is controlled by varying the voltage to the motor using pulse-width-modulation (as described in Section \ref{sec:helmet-design}). These changes in voltage results in simultaneous changes in frequency and amplitude, meaning the parameter \textit{'intensity'} is treated as a combination of these two parameters. However, whether these are suitable parameters for our system depends on how many intervals we wish to categorise distance, as frequency and amplitude only have 5-7 perceptually distinguishable levels \cite{guidelines}. From this, and additionally for the sake of simplicity, we choose not to study how the intensity can be varied. 
+
+This leaves the parameters of location and timing to be used to encode distance. Many studies have investigated how timing (or more specifically, rhythm) can be used to represent different distances \cite{10.1145/1060581.1060585, 5326374, 10.1145/1520340.1520718, 10.1145/1753326.1753581, 10.1145/1868914.1868923}. In these studies, the distance is typically measured from a moving wearer, to a stationary point of interest (POI), where the wearer is moving towards the POI. However, in the context of our described system, the POI (the approaching vehicle) is moving towards the wearer, who is also travelling in the same direction. This motivates the need to study whether typical rhythm coding schemes for distance are still appropriate for use in our described context.
+
+Furthermore, no studies to the best of our knowledge have investigated how the location of a vibration can convey distance. This is likely because the location parameter is typically used to convey direction. However, a unique feature the use of a helmet affords is the ability to use locations across various anatomical planes. That is, the sagittal, coronal, and axial planes \cite{anatomical}. In the context of vibro-tactile systems, motors on a belt-based display [cite all belt displays] would be considered to be along the axial plane, whereas motors on a vest display [cite all vests] or split along both wrists [cite], would be considered to be along the coronal plane. However, no studies to the best of our knowledge have investigated how vibro-tactile motors can be used to convey information across the sagittal plane.
+
+From this, our lab-study presents the opportunity to provide three novel contributions regarding distance encoding schemes.
+\begin{enumerate}
+    \item Is the typical use of rhythm to encode distance, a suitable parameter in the context of a hazard awareness system for approaching vehicles from behind?
+    \item How can the sagittal plane be utilised for vibro-tactile displays?
+    \item Is location of a vibration a suitable parameter to encode distance?
+\end{enumerate}
+
+
+\subsubsection{Procedure}\label{sec:lab-procedure}
+The first phase of the study is to investigate different location coding schemes for distance. Three schemes have been defined for study. Notably, for each scheme, the intensity and rhythm is kept constant:
+\begin{enumerate}
+    \item Singular Vibration - only the tactor at the location relative to the specified distance is activated.
+    \item Sequential Synchronous Vibration - all tactors up to the tactor at the location relative to the specified distance are activated at the same time.
+    \item Sequential Asynchronous Vibration - all tactors up to the tactor at the location relative to the specified distance are activated one at a time in sequential order.
+\end{enumerate}
+These schemes will be tested on recruited participants to investigate which scheme participants find best at conveying distance. We hypothesise that participants will prefer the asynchronous vibration scheme, as this utilises the vibro-tactile illusion of sensory saltation \cite{5710913}. Additionally, we predict that participants may experience the illusion of funneling when using the synchronous scheme, due to the simultaneous activation of tactors. NUMBER AND SPACING OF TACTORS for the reason of funneling.
+
+The second phase of the study is to investigate different rhythm coding schemes for distance. Three schemes have been defined for study. Notably, for each scheme, the intensity and location is kept constant. Specifically, the location is the singular tactor in the occipital region, as this points in the direction of the approaching vehicle.
+\begin{enumerate}
+    \item Monotonic (delay-based) - the activation delay continuously decreases as distance decreases.
+    \item Categorical (duration-based) - the duration of the rhythm (the number of pulses) decreases as the distance decreases.
+    \item Hybrid - a multi-phase model, which is categorical while the distance is far, but once a vehicle is imminent, it switches to a monotonic scheme.
+\end{enumerate}
+These schemes will be tested similarly to how the location schemes are. The monotonic encoding is inspired from van Erp et al. \cite{10.1145/1060581.1060585}, who compared different rhythm coding schemes for waypoint navigation. Specifically, an absolute encoding is used, where the delay decreases by a specific amount every $x$ amount of meters (compared to a relative encoding which decreases the delay be a percentage of the distance left). The categorical encoding is inspired from Asif et al. \cite{10.1145/1868914.1868923}, who compared different rhythm encodings, finding that participants found the combination of rhythm and duration the best at conveying distance. The hybrid encoding is inspired by Steltenpohl and Bouwer \cite{10.1145/2449396.2449450}, who combined two schemes similar to the described monotonic and categorical ones, to create a two-phase rhythm and duration distance encoding.
+
+Although arguably, these rhythm encodings could be further refined into more schemes; for instance, another definition of a hybrid scheme may decrease the activation delay when the distance category changes, or the monotonic scheme could be divided into a relative and an absolute scheme. This is simply meant to serve as an initial study investigating how rhythm can be used to encode distance for a hazard awareness system. Future work would ideally investigate such further refined schemes.
+
+The final phase of the study is to compare the location and rhythm schemes to conclude which one is best for our given system. We hypothesise that the combination of the best location and rhythm encoding, will produce the most ideal scheme.
+
+\subsection{User Study - TactiHelm Evaluation}\label{sec:user-study}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Work Plan}
+As discussed in the previous section, at the current stage of the project, we have achieved the following:
+\begin{itemize}
+    \item Conducted a user survey to gather an initial understanding to cyclists' thoughts and beliefs regarding safety while cycling.
+    \item Developed a mobile application which can connect to our bike radar and Arduino, and has remote control over each tactile actuator.
+    \item Thoroughly planned two studies to investigate distance coding schemes and then evaluate our finished TactiHelm product.
+\end{itemize}
+What remains to be done is to, prepare for, conduct, and then analyse the results of each study. Finally, we then must write our final article. This chapter outlines the intermediate deliverables and dates needed to complete the project. For simplicity, the plan is divided into weekly intervals, between the 8\ts{th} January and the deadline of April 12\ts{th}. The whole plan is detailed in a Gantt chart as shown in Figure x.
 
-show how you plan to organize your work, identifying intermediate deliverables and dates.
+The first large stage of work to be completed is the lab study as detailed in Section \ref{sec:lab-study}. This stage is expected to last from 08/01/24 to 05/02/24. Described below are the intermediate deliverables needed to complete this stage, and their expected dates: 
+\begin{enumerate}[label=1.\arabic*]
+    \item Prepare materials for study (08/01 - 15/01): before the study can be conducted, we first need to recruit participants, create briefs and debriefs, and plan a space to perform the study, among other preparations.\label{task:lab-prep}
+    \item Design cues (08/01 - 22/01): the relevant vibro-tactile cues to be evaluated in the study need to be designed (as discussed in Section \ref{sec:lab-procedure}). These should be able to be activated from the mobile app on command. \label{task:lab-cues}
+    \item Conduct study (22/01 - 29/01): the study can be performed with participants over the course of a week. This task is dependent upon tasks \ref{task:lab-prep} and \ref{task:lab-cues}. \label{task:lab-conduct}
+    \item Analyse results (29/01 - 05/02): the results from the study need to be analysed, in-order to understand which encoding scheme for distance is most suitable. This task is dependent upon task \ref{task:lab-conduct}.
+\end{enumerate}
 
-BRIEFLY DESCRIBE WHAT HAS BEEN DONE SO FAR:
-- user survey
-- construction of helmet circuit
-- mobile app which can control tactors
+The next large stage is to use the results gathered from the labs study, to design a real-world user study to evaluate our final TactiHelm product. This stage is expected to last from 05/02/24 to 11/03/24. Described below are the intermediate deliverables needed to complete this stage, and their expected dates: 
+\begin{enumerate}[label=2.\arabic*]
+    \item Prepare materials for study (05/02 - 12/02): before the study can be conducted, we first need to recruit participants, create briefs and debriefs, and plan a space to perform the study, among other preparations.
+    \item Create pipeline from radar to cues (05/02 - 19/02):
+    \item Additional bug fixing (19/02 - 26/02):
+    \item Conduct study (26/02 - 04/03):
+    \item Analyse results (04/03 - 11/03)
+\end{enumerate}
 
-NEED TO DO
-- LAB STUDY
-    - DESIGN CUES ON APP
+The final large stage of work to be conducted is to write our final article piece. This stage can run concurrently alongside the other stages, and is expected to last from 12/02/24 to 01/04/24. This provides a buffer period of 11 days for potential changes and problems.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.50\textwidth]{images/work-plan.pdf}
+    \caption{Figure showing the design for the Virtual Lead feature. This allows a user to guide the robot to the midpoint of the camera screen by using a marker to detect the robot's position and orientation.}
+    \label{fig:virtual-lead-design}
+\end{figure}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % it is fine to change the bibliography style if you want
