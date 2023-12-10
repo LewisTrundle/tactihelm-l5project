@@ -69,18 +69,81 @@
 * *5.5 hours* General app work.
 
 
-## Week 6 [23/10/23]
+## Week 6 [23/10/23] - 17.5 hours
+### 23 Oct 23
+* *5.5 hours* General app work.
+### 24 Oct 23
+* *2 hours* Started interim report.
+### 27 Oct 23
+* *3 hours* General app work.
+### 28 Oct 23
+* *3 hours* General app work.
+* *2 hours* Circuit construction.
+### 29 Oct 23
+* *2 hours* General app work.
 
-## Week 7 [30/10/23]
 
-## Week 8 [06/11/23]
+## Week 7 [30/10/23] - 14.5 hours
+### 30 Oct 23
+* *1 hour* General app work.
+* *4 hours* Started on introduction for interim report.
+### 31 Oct 23
+* *1 hour* Supervisor meeting.
+* *1.5 hours* User survey work.
+* *1.5 hours* General app work.
+### 01 Nov 23
+* *2.5 hours* Interim report work.
+### 02 Nov 23
+* *3 hours* Interim report work.
 
-## Week 9 [13/11/23]
 
-## Week 10 [20/11/23]
+## Week 8 [06/11/23] - 14 hours
+### 06 Nov 23
+* *3.5 hours* Interim report work.
+### 07 Nov 23
+* *0.5 hours* Interim report work.
+### 08 Nov 23
+* *5 hours* Analysing user survey.
+### 09 Nov 23
+* *2 hours* Interim report work.
+* *1 hours* Refactoring code on app.
+### 11 Nov 23
+* *2 hours* Continued refactoring code on app.
+
+
+## Week 9 [13/11/23] - 9.5 hours
+### 15 Nov 23
+* *4 hours* General app work.
+### 16 Nov 23
+* *2.5 hours* More general app work.
+### 17 Nov 23
+* *3 hours* Interim report.
+
+
+## Week 10 [20/11/23] - 19 hours
+### 20 Nov 23
+* *5 hours* Interim report.
+### 21 Nov 23
+* *1.5 hours* Supervisor meeting and prep.
+* *2.5 hours* Interim report.
+### 22 Nov 23
+* *3 hours* Interim report.
+### 23 Nov 23
+* *3.5 hours* Interim report.
+### 24 Nov 23
+* *3.5 hours* Interim report.
+
 
 ## Week 11 [27/11/23]
+### 28 Nov 23
+* *5.5 hours* Interim report.
+### 01 Dec 23
+* *3.5 hours* Interim report.
+### 02 Dec 23
+* *6 hours* Interim report.
 
 ## Week 12 [04/12/23]
 
 ## Week 13 [11/12/23]
+
+## Winter Holidays Period [18/12/23] - [07/01/24]
