@@ -20,6 +20,11 @@
 % allow custom labels for lists
 \usepackage{enumitem}
 
+% enable styled captions
+\usepackage[format=plain,
+labelfont={bf},
+textfont=it,tableposition=above]{caption}
+
 
 % other potentially useful packages
 %\uspackage{amssymb,amsmath}
@@ -67,9 +72,6 @@ Finally, we aim to evaluate the system in a real-world user study, to learn cycl
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Background Survey}
 There is little literature on hazard notification systems for cyclists, and of the existing corpus, few relate to the problem of cars encroaching from behind (the context in which this project is based). To address this issue, we first survey existing literature related to cycling safety, before examining literature regarding \textit{in-vehicle} hazard notification systems for cyclists. We then combine this with insights gathered from the use of different feedback modalities in cycling, as well as how vibro-tactile stimuli can be used to encode information, to form an overall view of how we can develop our proposed system.
-
-\subsection{Existing Cycling Safety Measures}
-COMPLETE SECTION
 
 \subsection{Hazard Notification for Cyclist Safety}
 The idea of a hazard notification system was first explored in 1992 by Horowitz and Dingus \cite{doi:10.1177/154193129203601320}. They proposed various design approaches, such as adjusting the warning intensity based off the detected collision time, and employing different signal modalities to convey various warning severities - concepts which have been often used in later research. However, it was not until 1996 where one of the earliest hazard detection systems emerged \cite{566402}. While not explicitly labelled as a hazard detection system, this project combined radar and vision technologies to create a system which could detect and classify road vehicles ahead of the car, then appropriately change lanes to avoid collision. This idea of detecting vehicles in-front was continued in subsequent research by Huang et al. who developed a warning system which could detect lane boundaries and successfully detect a vehicle in-front with 97\% accuracy \cite{1307429}. Despite previous concerns about the effectiveness of imperfect in-vehicle collision avoidance warning systems, Ben-Yaacov \cite{doi:10.1518/0018720024497925} and Maltz and Shinar \cite{doi:10.1518/hfes.46.2.357.37348} demonstrated through a prolonged study that even these imperfect systems could significantly aid drivers, as after a relatively short use of the system, participants were able to maintain longer and safer headways for at least six months.
@@ -134,7 +136,7 @@ The current TactiHelm helmet builds off previous work from Vo et al. \cite{10.11
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=1\textwidth]{images/work-plan.pdf}
+    \includegraphics[width=0.75\textwidth]{images/circuit-design_bb.pdf}
     \caption{Figure shows the outlined work plan, visualised as a Gantt chart. Large tasks are divided into smaller deliverables. Time is split into weekly intervals.}
     \label{fig:work-plan}
 \end{figure}
