@@ -163,6 +163,13 @@ To allow communication between the bike radar, and Arduino, a custom-built React
 
 What remains to be implemented is a pipeline between the bike radar and Arduino. More specifically, the information received via BLE from the bike radar should be parsed and encoded into the relevant vibro-tactile cues. However, this is not possible, until such encodings to cues are defined, as discussed further.
 
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/overall-system.pdf}
+    \caption{Figure shows the constructed circuit for TactiHelm. A voltage divider is used to limit the voltage level between the HC-06 Bluetooth Module and the Arduino \cite{bluetoothmodule}. The vibration motors require more power than the Arduino pins can provide, so NPN transistors are used to amplify the signal \cite{vibrationmotor}.}
+    \label{fig:overal-system}
+\end{figure}
+
 
 \subsection{Exploratory Survey}\label{sec:survey}
 To identify the requirements of a hazard notification system such as TactiHelm, an online survey was conducted to understand cyclists' attitudes and behaviours towards safety while cycling. The survey used a mixture of open response, Likert scale, and multiple choice questions to explore topics such as use of safety equipment and techniques and causes of injuries. It was distributed to various cycling groups around Glasgow, and respondents were urged to answer as truthly and honestly as possible. We emphasised that we did not intend to judge any participants' answers on their safety, legality, or 'sensibility' - instead we only wish to gather insights for use for the project.
