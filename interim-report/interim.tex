@@ -17,6 +17,9 @@
 % superscript for dates
 \newcommand{\ts}{\textsuperscript}
 
+% switch to roman numeral for frontmatter
+\pagenumbering{roman}
+
 % allow custom labels for lists
 \usepackage{enumitem}
 
@@ -48,6 +51,8 @@ textfont=it,tableposition=above]{caption}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}\label{intro}
+% reset page numbering
+\pagenumbering{arabic}
 \subsection{Motivation}
 Each year, road-traffic accidents account for 1.35 million deaths worldwide, with cyclists comprising 41,000 of these fatalities \cite{world2018global}. The economic burden associated with road accidents in the EU alone is estimated to amount to 236 billion euros annually \cite{costoftransport}. Despite the EU achieving an average annual reduction of 3\% in motor vehicle related fatalities, between 2010 and 2018, the fatality rate for cyclists remained the same across that same period \cite{adminaite2020safe} - emphasising the lack of attention towards cyclists regarding road safety.
 
@@ -116,13 +121,19 @@ Previous studies have investigated how these parameters can be used to create co
 
 The inconclusive findings from van Erp et al. \cite{10.1145/1060581.1060585} and Straub et al. \cite{5326374} identified a need to further explore how distance can be coded using temporal aspects of vibro-tactile stimulation, something which the skin is very sensitive to \cite{doi:10.1068/p5014}. McDaniel et al. utilised tactile rhythms to create a coding scheme to convey intimate, personal, interpersonal, and social distances to the blind \cite{10.1145/1520340.1520718}. The duration of a pulse was kept to a constant 50ms, but as the distance increased, the delay between pulses increased, similar to van Erp et al.'s monotonic scheme \cite{10.1145/1060581.1060585}. However, this experiment proved effective, and showed that given a small training period, users were able to effectively identify different tactile rhythms and associate them with their respective distances. Pielot et al. further studied distance encodings by developing a tactile display which presents the position and distance of other team members in a fast-paced 3D multiplayer game \cite{10.1145/1753326.1753581}. They compared rhythm-based, duration-based, and intensity-based schemes. Participants found their rhythm-based scheme the easiest to judge distance. Furthermore, they proved it was possible to accurately use vibro-tactile signals to convey distance in an environment with high cognitive demand. Asif et al. \cite{10.1145/1868914.1868923} further studied these parameters, but instead explored how they could be combined to compare three rhythm-based schemes: rhythm only, rhythm and intensity, and rhythm and duration\footnote{The rhythm only scheme decreased the number of pulses as the distance decreased, but the overall rhythm duration was kept constant, meaning the pulse duration also increased. The rhythm and intensity scheme was similar to the rhythm only scheme, but it additionally decreased the intensity and distance decreased. The rhythm and duration scheme also decreased the number of pulses as the distance decreased, but the pulse duration was kept constant, meaning the overall rhythm duration decreased.}. These schemes were used in-vehicle, to indicate different categories of distance until an approaching turn. The results found that the combination of rhythm and duration was the easiest for participants to learn and led to the smallest amount of navigational mistakes.
 
+Used for Motorcyclists:
+[[HaptiMoto - turn-by-turn haptic route guidance interface for motorcyclists]]
+[[Navigation Systems for Motorcyclists - Exploring Wearable Tactile Feedback for Route Guidance in the Real World]]
 
-\subsection{Interacting using Helmets while Cycling}
-[[Spatial Discrimination of Vibrotactile Stimuli Around the Head]] - info to do with vibro around head. Useful when talking about location coding schemes
-\cite{10.1145/2559206.2574803, 10.1145/1240866.1241027}
-[[https://oaktrust.library.tamu.edu/handle/1969.1/151968]]
-[[http://personales.upv.es/thinkmind/dl/conferences/vehicular/vehicular_2020/vehicular_2020_2_20_38002.pdf]]
-[[https://link.springer.com/chapter/10.1007/978-3-642-39802-5_3]]
+Used for cyclists:
+[[Vibrobelt - tactile navigation support for cyclists]]
+[[NaviBike - Comparing Unimodal Navigation Cues for Child Cyclists]] - encoded vibration into handlebars - far (100m), and near (50m) were indicated by 1000ms and 500ms duration and delay. Children reported not being able to distinguish between fast and slow vibration
+
+
+\subsection{Vibro-tactile Stimulation on the Head}
+\subsubsection{Spatial Acuity and the Midline Effect}
+
+\subsubsection{Tactile Systems for the Head}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -153,7 +164,7 @@ Answers to such questions are explored with a lab-study investigating different 
 
 
 \subsubsection{App Design}
-To allow communication between the bike radar, and Arduino, a custom-built React Native application was developed, to act as a mediary between the two devices, as seen in Figure 2. The current state of the application can run on an Android mobile phone; however, future versions of the app would ideally also run on an iOS device. Currently, the following functionality is possible with the application:
+To allow communication between the bike radar, and Arduino, a custom-built React Native application was developed, to act as a mediary between the two devices, as seen in Figure \ref{fig:overall-system}. The current state of the application can run on an Android mobile phone; however, future versions of the app would ideally also run on an iOS device. Currently, the following functionality is possible with the application:
 \begin{itemize}
     \item Connect to the HC-06 Bluetooth module using Bluetooth Classic
     \item Connect to the Garmin Varia using Bluetooth Low Energy
@@ -165,9 +176,9 @@ What remains to be implemented is a pipeline between the bike radar and Arduino.
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.75\textwidth]{images/overall-system.pdf}
-    \caption{Figure shows the constructed circuit for TactiHelm. A voltage divider is used to limit the voltage level between the HC-06 Bluetooth Module and the Arduino \cite{bluetoothmodule}. The vibration motors require more power than the Arduino pins can provide, so NPN transistors are used to amplify the signal \cite{vibrationmotor}.}
-    \label{fig:overal-system}
+    \includegraphics[width=0.85\textwidth]{images/overall-system.pdf}
+    \caption{Figure shows the overall system design. The bike radar communicates to the mobile application using Bluetooth Low Energy, which in turn communicates to the Arduino circuit using Bluetooth Classic.}
+    \label{fig:overall-system}
 \end{figure}
 
 
