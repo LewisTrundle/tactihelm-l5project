@@ -134,16 +134,44 @@
 * *3.5 hours* Interim report.
 
 
-## Week 11 [27/11/23]
+## Week 11 [27/11/23] - 17 hours
 ### 28 Nov 23
 * *5.5 hours* Interim report.
 ### 01 Dec 23
 * *3.5 hours* Interim report.
 ### 02 Dec 23
 * *6 hours* Interim report.
+### 03 Dec 23
+* *2 hours* Interim report.
 
-## Week 12 [04/12/23]
 
-## Week 13 [11/12/23]
+## Week 12 [04/12/23] - 33.5 hours
+### 04 Dec 23
+* *5 hours* Interim report.
+### 05 Dec 23
+* *2.5 hours* Interim report.
+### 06 Dec 23
+* *6.5 hours* Interim report.
+### 07 Dec 23
+* *6.5 hours* Interim report.
+### 08 Dec 23
+* *3.5 hours* Interim report.
+### 09 Dec 23
+* *3 hours* Interim report.
+### 10 Dec 23
+* *6.5 hours* Interim report.
+
+
+## Week 13 [11/12/23] - 21 hours
+### 11 Dec 23
+* *3.5 hours* Interim report.
+### 12 Dec 23
+* *6 hours* Interim report.
+### 13 Dec 23
+* *6 hours* Interim report.
+### 14 Dec 23
+* *4.5 hours* Interim report.
+### 04 Dec 23
+* *1 hours* Interim report.
 
 ## Winter Holidays Period [18/12/23] - [07/01/24]
