@@ -15,7 +15,4 @@ Yes, you are free to ask whatever questions you like during the study, and the e
 ##### Consent
 By continuing with this study, you acknowledge that you have read and understood the above information, and you consent to participate in this pilot study.
 
-Do you consent to participating in this study:
-
-- [ ] Yes
-- [x] No
+Do you consent to participating in this study: [ ] Yes [ ] No
