@@ -1,12 +1,13 @@
-# User Survey
+# Exploratory Survey
 In-order to assess what end users of Tactihelm would like to see from the product, it is necessary to first understand cyclists' attitudes and behaviours towards safety while cycling.
-
 The survey was split into four key categories, as shown below. There was a mixture of open response, Likert scale, and multiple choice questions, taking approximately 6 minutes to complete. These were distributed to various cycling groups around Glasgow. Survey participants were urged to answer as truthly and honestly as possible. It was not our intention to judge any participants' answers on their safety, legality, or 'sensibility' - instead we only seeked to gather valuable insights into cyclists' behaviours.
-
 All data collected remained compliant with GDPR.
 
+* [Survey Results](../data/exploratory-survey/survey-data.xlsx)
+* [Survey Analysis](./survey-analysis.ipynb)
 
-## Demographic
+## Questions
+### Demographic
 Basis demographic information is needed incase any differences arises between different demographic groups. The following information is collected:
 >* How old are you?
 >* What is your gender?
@@ -15,7 +16,7 @@ Basis demographic information is needed incase any differences arises between di
 It is known that age and gender impacts a cyclists behaviour. Location also impacts a cyclists attitudes and behaviour due to differences in the countries laws and infrastructure.
 
 
-## Cycling Habits and Experiences
+### Cycling Habits and Experiences
 This section aimed to gather insights into participants own experiences with cycling. Insights such as cycling frequency, environment, reasoning, and injuries are acquired. The following questions are asked:
 >* How often do you cycle?
 >* In which environments do you regularly cycle?
@@ -24,7 +25,7 @@ This section aimed to gather insights into participants own experiences with cyc
 >* If you answered yes to the previous question - can you briefly describe (in one or two sentences) how the accident occurred and if it could have been prevented in anyway?
 
 
-## Safety Techniques and Equipment
+### Safety Techniques and Equipment
 This section focuses on safety techniques and equipment used by cyclists.
 
 From the first question, we hope to gather insights into how cyclists keep themselves safe on the road via their own actions. Participants are asked to read the following statements, then select how much they agree (from Strongly Disagree to Strongly Agree). The statements are as follows:
@@ -65,32 +66,19 @@ The final question asks:
 >* What challenges do you experience which makes cycling feel unsafe (give as many reasons as you wish)?
 
 
-## Tactihelm
+### Tactihelm
 The final section gives a brief description of Tactihelm and then asks participants to share their thoughts. This questions encourages both positive and negative comments to be shared, so that we may properly initially evaluate Tactihelms' desire in the target market.
 
+<br>
 
 
-## Groups
-
-### Scotland Groups
+## Groups Surveyed
+The survey was posted in the following Facebook groups.
 * [Cycle Community Scotland](https://www.facebook.com/groups/cyclecommunityscotland)
 * [Scotland Road Cycling routes](https://www.facebook.com/groups/ScotlandRoadCyclingRoutes)
-* [Cycling, South West Scotland](https://www.facebook.com/groups/cyclingsouthwestscotland)
-* [Edinburgh Cycling Community/Bike Buddies](https://www.facebook.com/groups/132074350768229)
-* [Meadows Cycling](https://www.facebook.com/groups/817889959044532)
-
-##### Glasgow Groups
 * [Cycling Glasgow](https://www.facebook.com/groups/408121862671464)
-* [Glasgow Nightingale Cycling Club](https://www.facebook.com/groups/glasgownightingalecc)
-* [University of Glasgow Cycling Club](https://www.facebook.com/UofGCyclingClub)
-* [Glasgow Critical Mass](https://www.facebook.com/groups/GlasgowCriticalMass)
 * [Family Cycling Glasgow](https://www.facebook.com/groups/familycyclingglasgow)
 * [Glasgow Students](https://www.facebook.com/groups/glasgowstudents)
-* Comp Sci Discord
-
-### Other
-* [Family Cycling UK](https://www.facebook.com/groups/641173915998956)
 * [Friends of Cycling uk](https://www.facebook.com/groups/necycling)
 * [Roadbike Cycling](https://www.facebook.com/groups/roadbikecycling)
 * [I Love Cycling](https://www.facebook.com/groups/cycling.world)
-* [Cycling Fans and Riders](https://www.facebook.com/groups/221530028932694)

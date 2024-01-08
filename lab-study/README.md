@@ -1,0 +1,1 @@
+# Lab Study - Investigating Vibrotactile Distance Encodings
