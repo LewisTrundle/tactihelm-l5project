@@ -1,5 +1,25 @@
 # Investigating Vibrotactile Distance Encodings: Experiment Session
 
+## Setup and Explanation
+
+### Helmet Fitting
+
+Please put the helmet on your head and adjust the tightness as necessary, until you are comfortable with the placement.
+
+### Tactors
+
+Three vibration motors (tactors) have been placed inside the helmet, equidistant along the midline of the head, as shown in the [provided diagram](../design/head-regions.pdf). These tactors will now be activated individually so you can feel where they are located. If needed, please feel free to ask the evaluator to activate a tactor again.
+
+### Following Distance
+
+We believe an appropriate way of warning a cyclist of an approaching vehicle, is to convey to them the following distance of the vehicle behind. Despite being called the following distance, this is actually a measure of the time it would take the vehicle following behind to reach your location, if you were to suddenly stop. In this lab-study, we quantise this metric into three discrete categories: far, near, and imminent. The encoding schemes which you will be evaluating, each have a unique way of communicating these distances to a cyclist using vibrotactile cues, delivered using the three vibration motors in the helmet.
+
+### Questionnaire - Part 1
+
+Before we go on to describe and evaluate the encoding schemes, please follow the link and complete the first section of the questionnaire: [TactiHelm - Lab Study Questionnaire](https://forms.office.com/e/G1WUgtXXxy).
+
+Once this is done, please navigate to the next part of the study: [Experiment Session](./experiment-session.md).
+
 ## Schemes (Training)
 
 The following encoding schemes have been defined for study. These schemes were created by varying the pattern (the number of stimuli and the time between stimuli) of a single vibration rhythm, and the number of times a rhythm is repeated (the rhythm duration).
