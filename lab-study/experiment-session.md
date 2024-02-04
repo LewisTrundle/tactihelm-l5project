@@ -33,11 +33,6 @@ The following encoding schemes have been defined for study. These schemes were c
 5. Sequential Asynchronous Pattern with Monotonic Duration
 6. Sequential Asynchronous Pattern with Varying Duration
 
-Additional Info:
-
-- The **Stimulus Intensity** remains a constant 100%.
-- The **Cue Delay** is dependent upon the following distance of the car. A vibrational cue will be delivered when a vehicle is first detected and every time the closest detected vehicle changes distance category.
-
 ### Descriptions
 
 With a **Singular Pattern**, only the tactor at the location relative to the specified distance
@@ -106,10 +101,22 @@ With a **Varying Duration**, the number of times a vibrational cue is repeated i
 
 ## Evaluation
 
-You will now evaluate each of the six schemes.
+You will now evaluate each of the six schemes. The evaluation of each scheme is split into two parts.
 
-You will be presented with six scenarios - simulating the approach of a vehicle from behind. For each scenario, one of the six schemes will be used to convey the following distance of the approaching vehicle. Before each scenario begins, you will be told which scheme is being used and will be given the chance to ask any questions. Each scenario will last roughly 30 seconds.
+Before we begin, you will be given a chance to practice. After you have completed the first two schemes, we will take a short break, where we will ask you to complete parts of the questionnaire before continuing. This will repeat after you have completed schemes 3 and 4. After you have completed schemes 5 and 6, the evaluation will end and you will be asked to complete the remaining questionnaire.
+
+### Part 1: Training with Realistic Scenarios
+
+For each scheme, you will first be presented with a realistic scenario - simulating the approach of a vehicle from behind. During this scenario, the helmet will vibrate when the vehicle is first detected, and everytime the vehicle changes distance category. For example, if the vehicle goes from *far* to *near*, or vice-versa, the helmet will vibrate. These scenarios will last roughly 40 seconds, and are designed to get you used to how the encoding scheme operates.
 
 During a scenario, each time you feel a vibrational cue, please immediately note down what following distance you believe is being conveyed, using the aforementioned terms, *far*, *near*, or *imminent*. When the scenario is finished you will be given a chance to change any of your answers before you submit them.
 
-Before we begin, you will be given a chance to practice. After you have completed the first three schemes, you will be asked to complete the first half of the questionnaire, before continuing with the rest of the experiment.
+Both before and after a scenario, you will be given the chance to ask any questions. Please feel free to ask the evaluator if you require a break between scenarios.
+
+### Part 2: Testing with Random Vibrations
+
+Once you have completed the realistic scenario for the scheme and are ready to move on, you will be presented with two more scenarios. These scenarios differ from the realistic one in that a random distance will be represented every 6 seconds - vibrating the helmet. These scenarios last roughly 70 seconds, and are designed to test how well you can perceive the different vibrational cues.
+
+The process during the scenario is exactly the same as previously - each time you feel a vibrational cue, note down what following distance you believe was conveyed.
+
+Once again, you will be given a chance to ask questions both before and after each scenario. Please feel free to ask the evaluator if you require a break between scenarios.

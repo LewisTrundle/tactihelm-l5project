@@ -98,3 +98,8 @@ Do you have any further comments regarding the comfort of the helmet?
 
 **Suggestions for Further Improvement**
 Based on your experience today, what improvements or additional features would you recommend for future iterations of the helmet?
+
+## Limitations
+
+- small sample size
+- not all participants were avid cyclists
