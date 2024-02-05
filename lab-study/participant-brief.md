@@ -18,7 +18,7 @@ Most data which we collect during this experiment will be answers to questions i
 Your data is and will remain completely confidential, and will be used solely for the purpose of this research project. You can of course request that your data be removed at any time, including during or after the study.
 
 **How long will this take?**
-Hopefully not too long - no more than 45 minutes. You are of course free to withdraw at any time without prejudice.
+Hopefully not too long - no more than 50 minutes. You are of course free to withdraw at any time without prejudice.
 
 **Can I ask questions?**
 Yes, you are free to ask whatever questions you like during the study, and the evaluator will attempt to answer them to the best of their knowledge (so long as it won’t impose on the results of the study). If you have any questions after the study, please feel free to reach out to [2469635t@student.gla.ac.uk](mailto:2469635t@student.gla.ac.uk).

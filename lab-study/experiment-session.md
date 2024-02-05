@@ -24,19 +24,18 @@ Once you have completed the questionnaire, please ask the evaluator any question
 
 ## Distance Encoding Schemes
 
-The following encoding schemes have been defined for study. These schemes were created by varying the **pattern** (the number of stimuli and the time between stimuli) of a single vibration rhythm, and the **rhythm duration** (the number of times a rhythm is repeated).
+The following encoding schemes have been defined for study. These schemes were created by varying the **pattern** (the number of stimuli and the time between stimuli) of a single vibration rhythm, and the **rhythm duration** (the number of times a rhythm is repeated). To make these schemes easier to remember, we have given them nicknames, based on how they operate - the schemes' full name is within the parentheses.
 
-1. Singular Pattern with Monotonic Duration
-2. Singular Pattern with Varying Duration
-3. Sequential Synchronous Pattern with Monotonic Duration
-4. Sequential Synchronous Pattern with Varying Duration
-5. Sequential Asynchronous Pattern with Monotonic Duration
-6. Sequential Asynchronous Pattern with Varying Duration
+1. **Singular Constant** (Singular Pattern with Monotonic Duration)
+2. **Singular Varying** (Singular Pattern with Varying Duration)
+3. **Wall Constant** (Sequential Synchronous Pattern with Monotonic Duration)
+4. **Wall Varying** (Sequential Synchronous Pattern with Varying Duration)
+5. **Wave Constant** (Sequential Asynchronous Pattern with Monotonic Duration)
+6. **Wave Varying** (Sequential Asynchronous Pattern with Varying Duration)
 
 ### Descriptions
 
-With a **Singular Pattern**, only the tactor at the location relative to the specified distance
-is activated.
+With a **Singular Pattern**, only the tactor at the location relative to the specified distance is activated. Hence the name 'Singular', as only a single tactor is activated at one time.
 
 | Distance | Activated Tactors |
 |:--------:|:-----------------:|
@@ -44,8 +43,7 @@ is activated.
 |   Near   |        Mid        |
 | Imminent |       Front       |
 
-With a **Sequential Synchronous Pattern**, all tactors up to the tactor at the location relative
-to the specified distance are activated at the same time.
+With a **Wall Pattern**, all tactors up to the tactor at the location relative to the specified distance are activated at the same time. Hence the name 'Wall', as multiple tactors can be activated at the same time - creating a wall across your scalp.
 
 | Distance |   Activated Tactors  |
 |:--------:|:--------------------:|
@@ -53,8 +51,7 @@ to the specified distance are activated at the same time.
 |   Near   |     Rear **and** Mid     |
 | Imminent | Rear, Mid, **and** Front |
 
-With a **Sequential Asynchronous Pattern**, all tactors up to the tactor at the location relative
-to the specified distance are activated one at a time with an interval between them, in sequential order.
+With a **Wave Pattern**, all tactors up to the tactor at the location relative to the specified distance are activated one at a time with an interval between them, in sequential order. Hence the name 'Wave', as the tactors are activated like a wave across your scalp.
 
 | Distance |   Activated Tactors  |
 |:--------:|:--------------------:|
@@ -62,7 +59,7 @@ to the specified distance are activated one at a time with an interval between t
 |   Near   |    Rear **then** Mid   |
 | Imminent | Rear, **then** Mid, **then** Front |
 
-With a **Monotic Duration**, each vibrational cue is delivered only once.
+With a **Constant Duration**, each vibrational cue is delivered only once. Hence the name 'Constant', as the number of repetitions remains a constant one.
 
 | Distance | Repetitions |
 |:--------:|:-----------:|
@@ -70,7 +67,7 @@ With a **Monotic Duration**, each vibrational cue is delivered only once.
 |   Near   |      1      |
 | Imminent |      1      |
 
-With a **Varying Duration**, the number of times a vibrational cue is repeated increases when the distances decreases.
+With a **Varying Duration**, the number of times a vibrational cue is repeated increases when the distances decreases. Hence the name 'Varying', as the number of repetitions varies depending on the distance.
 
 | Distance | Repetitions |
 |:--------:|:-----------:|
@@ -103,20 +100,20 @@ With a **Varying Duration**, the number of times a vibrational cue is repeated i
 
 You will now evaluate each of the six schemes. The evaluation of each scheme is split into two parts.
 
-Before we begin, you will be given a chance to practice. After you have completed the first two schemes, we will take a short break, where we will ask you to complete parts of the questionnaire before continuing. This will repeat after you have completed schemes 3 and 4. After you have completed schemes 5 and 6, the evaluation will end and you will be asked to complete the remaining questionnaire.
+Before we begin the evaluation, you will be given a chance to practice.
 
-### Part 1: Training with Realistic Scenarios
+After you have completed schemes 1 and 2, we will take a short break, where we will ask you to partly complete questions 7 - 16 of the questionnaire. After you have completed schemes 3 and 4, we will take another break for the questionnaire. After you have completed schemes 5 and 6, the evaluation will end and you will be asked to complete the remaining questionnaire.
 
-For each scheme, you will first be presented with a realistic scenario - simulating the approach of a vehicle from behind. During this scenario, the helmet will vibrate when the vehicle is first detected, and everytime the vehicle changes distance category. For example, if the vehicle goes from *far* to *near*, or vice-versa, the helmet will vibrate. These scenarios will last roughly 40 seconds, and are designed to get you used to how the encoding scheme operates.
+### What will happen?
+
+For each scheme, you will be be presented with three scenarios.
+
+The first scenario simulates the approach of a vehicle from behind, and is designed to quickly train you on how the encoding scheme works. It lasts approximately 40 seconds, with the helmet vibrating every five seconds.
+
+Once you have completed the short practice scenario for the scheme and are ready to move on, you will be presented with the other two scenarios. These randomly vibrate any one of the three tactors on the helmet using the current encoding scheme and are designed to test how well you can perceive the different vibrational cues. They are slightly longer than the practice one - lasting approximately 60 seconds, with the helmet also vibrating every five seconds.
+
+### What do I do?
 
 During a scenario, each time you feel a vibrational cue, please immediately note down what following distance you believe is being conveyed, using the aforementioned terms, *far*, *near*, or *imminent*. When the scenario is finished you will be given a chance to change any of your answers before you submit them.
 
 Both before and after a scenario, you will be given the chance to ask any questions. Please feel free to ask the evaluator if you require a break between scenarios.
-
-### Part 2: Testing with Random Vibrations
-
-Once you have completed the realistic scenario for the scheme and are ready to move on, you will be presented with two more scenarios. These scenarios differ from the realistic one in that a random distance will be represented every 6 seconds - vibrating the helmet. These scenarios last roughly 70 seconds, and are designed to test how well you can perceive the different vibrational cues.
-
-The process during the scenario is exactly the same as previously - each time you feel a vibrational cue, note down what following distance you believe was conveyed.
-
-Once again, you will be given a chance to ask questions both before and after each scenario. Please feel free to ask the evaluator if you require a break between scenarios.

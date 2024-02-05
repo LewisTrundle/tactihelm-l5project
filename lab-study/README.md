@@ -1,5 +1,16 @@
 # Lab Study - Investigating Vibrotactile Distance Encodings
 
+## Important Links
+
+- [Participant Brief](./participant-brief.md)
+- [Participant Debrief](participant-debrief.md)
+- [Experimental Session](./experiment-session.md)
+- [TactiHelm - Lab Study Questionnaire](https://forms.office.com/e/G1WUgtXXxy)
+- [Data](../data/lab-study/)
+- Results
+
+[provided diagram](../design/head-regions.pdf)
+
 ## Goal of the Study
 
 The goal of this experiment is to investigate how information about an approaching vehicle can be effectively encoded and conveyed to a cyclist using vibrotactile cues with the TaciHelm helmet. We aim to compare six defined encoding schemes to identify which is most suitable. This evaluation investigates the specified questions:
