@@ -4,37 +4,54 @@
 
 - [Participant Brief](./participant-brief.md)
 - [Participant Debrief](participant-debrief.md)
-- [Experimental Session](./experiment-session.md)
+- [Information Sheet](./experiment-session.md)
 - [TactiHelm - Lab Study Questionnaire](https://forms.office.com/e/G1WUgtXXxy)
 - [Data](../data/lab-study/)
 - Results
-
-[provided diagram](../design/head-regions.pdf)
+- [Head Regions Diagram](../design/head-regions.pdf)
 
 ## Goal of the Study
 
-The goal of this experiment is to investigate how information about an approaching vehicle can be effectively encoded and conveyed to a cyclist using vibrotactile cues with the TaciHelm helmet. We aim to compare six defined encoding schemes to identify which is most suitable. This evaluation investigates the specified questions:
+The goal of this experiment is to investigate how the distance of an approaching vehicle can be effectively encoded and conveyed to a cyclist using vibrotactile cues with the TactiHelm helmet. We aim to compare six defined encoding schemes to identify which is most suitable. This evaluation investigates the specified questions:
 
-1. Which combinations of pattern-based and rhythm-based encodings are most usable for our proposed system?
-2. Which combinations of pattern-based and rhythm-based encodings help the cyclist make the least amount of perception errors?
-3. Is a linear configuration of vibrotactile motors along the midline of the head, suitable for a helmet-based display?
-4. Can the sagittal plane of the human body be used for a vibrotactile display?
-5. Is following distance a suitable metric to appropriately alert participants of an approaching vehicle?
-6. Is our categorisation of following distance into far, near, and imminent, appropriate for our proposed system?
+1. Is the sagittal plane of the scalp a suitable location for vibrotactile stimulation, for a helmet-based vibrotactile display?
+2. Which combination of location-based and duration-based encodings helps participants make the fewest amount of information perception/interpretation errors, in our described system?
+3. What are common errors which participants make when perceiving/interpreting vibrotactile information using a helmet-based display?
+
+To answer the first question, we investigate how perception of vibrotactile stimulation varies across the three stimuli loci in our described system. To answer the second question, we systematically evaluate the perception/interpretation of six different encoding schemes - created from three location-based schemes and two duration-based schemes. Finally, to answer the third question, we gather qualitative feedback from participants to understand how they perceive the given vibrotactile stimuli.
 
 ## Experiment Design
 
-Our experiment consists of one independent variable - the following distance encoding scheme. This variable has six different levels - the combinations of three pattern schemes and two duration schemes. Encoding schemes present different vibrotactile cues to the participant, depending on the following distance of the approaching  vehicle. The following distance is the distance of the vehicle, divided by its speed. We used a within-subjects design, where each participant experienced six simulated cycling scenarios in lab conditions. The order of experimental conditions (the encoding schemes) was balanced using a balanced latin square. The order in which the participants experiences the scenarios remained constant.
+Our experiment consists of two independent variables - the vibration location and the vibration duration. The vibration location describes which vibrational motors should be activated and has three distinct levels, while the vibration duration describes how many times a vibrational cue should be repeated and has two distinct levels. The distance information is presented by both the location and duration of a vibrotactile cue. Together these two variables create six unique experimental conditions, known as the distance encoding schemes.
 
-### Dependent Variables
+To compare these six schemes, we used a within-subjects design, where each participant evaluated every encoding scheme under lab conditions. The evaluation of each scheme was composed of three trials. During a trial, a vibrotactile cue representing a distance would be sent to the helmet every five seconds. Participants would then have to state which distance they believed was just conveyed. The first trial was a short training phase, aimed to quickly train participants on how to interpret the encoding scheme. The second and third trials were part of the data gathering phase, were participants' results would be recorded without correction. This totalled to 18 trials for each participant. Trials were consistent in length: every training trial had a total of seven cues, whereas every data gathering trial had 12 cues, with an equal split of different distances. The order in which participants evaluated the schemes was balanced using a balanced latin square. The order of the trials remained constant.
 
-### Subjects
+### Dependent Measures
 
-We seek to recruit roughly 10 participants for the study. Although factors such as age and hair density may affect the perception of vibrotactile stimuli, we do not seek to discriminate in this study.
+Following our research questions for this study, we define our dependent measures as the usability of the encoding schemes and the number of information perception errors.
+
+*Information perception errors: Information perception errors are the number of errors made by the participant in identifying the category of distance. We measure the number of participants’ wrong responses on the categories of distance for quantifying how many errors they made in perceiving the distance information. Furthermore, we analyzed how they interpreted the categories of distance*
+
+We define usability in terms of the usefullness, distinguishability, interpretability, intuitiveness, and perceived length, of a set of vibrotactile cues.
+
+Usability data is gotten from interviews and info perception is gotten from trials.
+
+#### Questionnaires
+
+#### Interviews
+
+### Subjects and Apparatus
+
+18 participants were recruited for the study, all of which were between the ages of 16 and 24. Although not recorded, the density of participants' hair varied - possibly affecting the perception of vibrotactile stimuli. Few participants were avid cyclists, with only x% stating they cycling more than x hours per week.
 
 ### Procedure
 
 ## Results
+
+The study was completed by x respondents, all aged 16-24 years old. 
+
+90% of respondents answered saying they cycle more than one hour a week, with 42.73% of
+respondents cycling 7+ hours a week
 
 ### Comparing Schemes
 
@@ -110,7 +127,17 @@ Do you have any further comments regarding the comfort of the helmet?
 **Suggestions for Further Improvement**
 Based on your experience today, what improvements or additional features would you recommend for future iterations of the helmet?
 
-## Limitations
+## Pros and Limitations
+
+Unlike other studies which directly compare encoding schemes, our study systematically varies two components which when combined, create an encoding scheme.
+
+Lab-based instead of real, so hard to actually measure impact.
+
+Trials were split in two to avoid fatigue and missing answers carrying more impact.
+
+Training was good idea
+
+participants were fatigued by end of experiment but latin square mitigated these effects.
 
 - small sample size
 - not all participants were avid cyclists

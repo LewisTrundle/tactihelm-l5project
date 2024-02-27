@@ -175,11 +175,54 @@
 * *1 hours* Interim report.
 
 
-## Week 14 [08/01/24]
-## Week 15 [15/01/24]
-## Week 16 [22/01/24]
-## Week 17 [29/01/24]
+## Week 14 [08/01/24] - 16.5 hours
+### 08 Jan 24
+* *1.5 hours* Housekeeping.
+### 09 Jan 24
+* *1 hours* Lab-study prep.
+### 11 Jan 24
+* *6 hours* Updating Arduino-code.
+### 12 Jan 24
+* *5 hours* Updating Arduino-code.
+* *3 hours* Lab-study planning.
+
+
+## Week 15 [15/01/24] - 14 hours
+### 15 Jan 24
+* *2 hours* Updating app to work with arduino code
+### 18 Jan 24
+* *3 hours* Lab-study planning.
+### 19 Jan 24
+* *5 hours* App work.
+### 21 Jan 24
+* *4 hours* Lab-study planning
+
+
+## Week 16 [22/01/24] - 7 hours
+### 22 Jan 24
+* *2 hours* Lab-study planning.
+### 26 Jan 24
+* *5 hours* Lab-study planning.
+
+
+## Week 17 [29/01/24] - 13.5 hours
+### 29 Jan 24
+* *3 hours* Lab-study planning.
+### 01 Feb 24
+* *4.5 hours* Lab-study planning.
+### 04 Feb 2024
+* *6 hours* Lab-study planning.
+
+
 ## Week 18 [05/02/24]
+### 05 Feb 2024
+* *4 hours* Lab-study planning.
+### 06 Feb 2024
+* *1.5 hours* Conducting lab-study.
+### 07 Feb 2024
+* *3 hours* Conducting lab-study.
+
+
 ## Week 19 [12/02/24]
 ## Week 20 [19/02/24]
 ## Week 21 [26/02/24]
