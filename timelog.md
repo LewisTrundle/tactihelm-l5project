@@ -214,18 +214,45 @@
 * *6 hours* Lab-study planning.
 
 
-## Week 18 [05/02/24]
+## Week 18 [05/02/24] - 12.5 hours
 ### 05 Feb 2024
 * *4 hours* Lab-study planning.
 ### 06 Feb 2024
 * *1.5 hours* Conducting lab-study.
+* *1 hours* Supervisor meeting.
 ### 07 Feb 2024
+* *3 hours* Conducting lab-study.
+### 08 Feb 2024
+* *2 hours* Conducting lab-study.
+### 09 Feb 2024
 * *3 hours* Conducting lab-study.
 
 
-## Week 19 [12/02/24]
-## Week 20 [19/02/24]
+## Week 19 [12/02/24] - 1.5 hours
+### 16 Feb 2024
+* *1.5 hours* Conducting lab-study.
+
+
+## Week 20 [19/02/24] - 18 hours
+### 19 Feb 2024
+* *3 hours* Conducting lab-study.
+* *3 hours* Started analysing results.
+### 21 Feb 2024
+* *3 hours* Conducting lab-study.
+* *3 hours* Started planning user study.
+### 23 Feb 2024
+* *6 hours* Coding infrastructure for user study.
+
+
 ## Week 21 [26/02/24]
+### 27 Feb 2024
+* *3 hours* Conducting lab-study.
+### 28 Feb 2024
+* *4 hours* Conducting lab-study.
+### 29 Feb 2024
+* *6 hours* Continued with analysis of lab-study results
+
+
 ## Week 22 [04/03/24]
 ## Week 23 [11/03/24]
 ## Week 24 [18/03/24]
