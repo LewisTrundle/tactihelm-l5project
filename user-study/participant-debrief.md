@@ -1,4 +1,4 @@
-# Investigating Vibrotactile Distance Encodings: Participant Debrief
+# TactiHelm User Study: Participant Debrief
 
 The aim of this experiment was to investigate how information about an approaching vehicle can be effectively encoded and conveyed to a cyclist using vibrotactile cues with the TaciHelm helmet.
 

@@ -1,29 +1,33 @@
 # TactiHelm User Study: Participant Brief
 
-Hi! Thank you for volunteering to be part of the user-study for our Tactihelm project.
+Hi! Thank you for volunteering to be part of the user-study for our TactiHelm project.
 
-**What is Tactihelm?**
-Tactihelm is a smart-helmet which provides vibrotactile feedback to a cyclist warning them of an approaching vehicle. The helmet connects to a bike radar, attached to the rear of a users bike. The radar detects the approaching vehicle and communicates this information to the helmet. The helmet uses this information to activate the vibrational motors inside the helmet - activating them in some pattern, from which the cyclist can interpret information about the approaching vehicle.
+**What is TactiHelm?**
+TactiHelm is a smart-helmet which provides vibrotactile feedback to a cyclist warning them of an approaching vehicle. The helmet connects to a bike radar, attached to the rear of a users bike. The radar detects the approaching vehicle and communicates this information to the helmet. The helmet uses this information to activate the vibrational motors inside the helmet - activating them in some pattern, from which the cyclist can interpret information about the approaching vehicle.
 
 **What am I doing here today?**
 We would like to evaluate how our developed TactiHelm system works in the real-world. In-order to do this, we need the help of people, such as yourself, who are willing to try on and wear TactiHelm during an actual bike ride. By doing this, we hope to understand how effective our helmet is in warning cyclists of the presence and proximity of approaching vehicles behind them.
 
 **What will I be doing?**
-Your participation in this study will take place over the course of today, tomorrow, and one further day. Your primary task will be to simply cycle your commute between your workplace and residence as you normally would, but equipped with the TactiHelm system. We ask that during your commute, you perform a think-aloud evaluation of the system (i.e. say your thoughts out-loud). Further guidance on this will be explained shortly. After the completion of your second commute, you will be asked to complete some surveys, as well as a short interview with myself. Finally,we will ask that you complete one more commute between your workplace and residence, without the use of TactiHelm. This will not require a think-aloud evaluation, instead we will ask you to complete one more survey, afterwhich, your participation in this study is complete, and you will be properly debriefed.
+Your participation in this study will take place over the course of today, tomorrow, and one further day. Your primary task will be to simply cycle your commute between your workplace and residence as you normally would, but equipped with the TactiHelm system. We ask that during your commute, you perform a think-aloud evaluation of the system (i.e. say your thoughts out-loud). Further guidance on this will be explained shortly. After the completion of your second commute, you will be asked to complete some surveys. Finally, we will ask that you complete one more commute between your workplace and residence, without the use of TactiHelm. This will not require a think-aloud evaluation, instead we will ask you to complete one more survey, after which, your participation in this study is complete, and you will be properly debriefed.
 
 The task list is as follows:
 
-- [ ] Day 1: cycle from work to home using TactiHelm and performing think-aloud.
-- [ ] Day 2: cycle from home to work using TactiHelm and performing think-aloud.
-- [ ] Day 2: complete questionnaires and interview and return equipment.
-- [ ] Day 2: cycle from work to home normally.
-- [ ] Day 3: cycle from home to work normally.
-- [ ] Day 3: complete final questionnaire.
+1. cycle from **work to home** using TactiHelm and performing think-aloud.
+2. cycle from **home to work** using TactiHelm and performing think-aloud.
+3. complete questionnaires and interview and return equipment.
+4. cycle from **home to work** normally and complete NASA-TLX questionnaire.
 
-Please note that this experiment is not a test of your ability.
+Task 1 will be performed the day you are given TactiHelm. Tasks 2 and 3 will be performed the day after you are given TactiHelm. Task 4 can be performed any day within three days of performing the previous tasks. Please note that this experiment is not a test of your ability.
 
 **What data will you collect?**
-We will be collecting data from two sources during this experiment. The first will be the audio data captured during your cycle rides. The second will be your answers to the post-experiment surveys and interview. Your data is and will remain completely confidential, and will be used solely for the purpose of this research project. You can of course request that your data be removed at any time, including during or after the study.
+The following data will be collected over the course of this experiment:
+
+- Audio data captured during your cycle rides. This will be used to look for any important comments made regarding your experience with TactiHelm, during your commutes.
+- Answers to the post-experiment surveys. This will be used to gather your subjective opinion on the effectiveness and usability of TactiHelm.
+- GPS location data gathered during your cycle rides. This will be used to compare any variances in participants' commutes, such as distance and time. Note that you may opt out of collection of this data. In which case, we would instead ask yourself to provide some general information about your commute.
+
+Please note that your data is and will remain completely confidential, and will be used solely for the purpose of this research project. You can of course request that your data be removed at any time, including during or after the study.
 
 **What if I no longer want to participate?**
 You are welcome to withdraw from the experiment at any time without prejudice. If you do so, then please note that it will not be possible for you to be debriefed about the purposes of the experiment.
@@ -32,4 +36,4 @@ You are welcome to withdraw from the experiment at any time without prejudice. I
 Yes, you are free to ask whatever questions you like during the study, and the evaluator will attempt to answer them to the best of their knowledge (so long as it won’t impose on the results of the study). If you have any further questions either during or after the study, please feel free to reach out to [2469635t@student.gla.ac.uk](mailto:2469635t@student.gla.ac.uk).
 
 **Consent**
-By continuing with this study, you acknowledge that you have read and understood the above information, and you consent to participate in this study. If you consent to participate in this study, then please follow the link to explicitly give your consent: [TactiHelm - User Study Questionnaire](https://uofg.qualtrics.com/jfe/form/SV_5A85kxojqWhocWa).
+By continuing with this study, you acknowledge that you have read and understood the above information, and you consent to participate in this study. If you consent to participate in this study, then please follow the link to explicitly give your consent: [User Consent Form](https://uofg.qualtrics.com/jfe/form/SV_5A85kxojqWhocWa).
