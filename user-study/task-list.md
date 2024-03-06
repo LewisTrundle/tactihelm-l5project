@@ -4,9 +4,10 @@
 
 Before proceeding with any tasks, please ensure you have fully read the [information sheet](./information-sheet.md) and [user manual](./user-manual.md).
 
+- If you have opted not to record your GPS data, then please ignore any instructions regarding how to do so.
 - Please remember to turn on and off the helmet, bike radar, and headpiece between usage.
 - Please ensure your mobile device is near fully charged before commencing your commute.
-- For GPS data to be accurately tracked, please ensure battery saving mode on your mobile device is turned off.
+- If you are okay doing so, for GPS data to be accurately tracked, please ensure battery saving mode on your mobile device is turned off.
 
 ## Task List
 
