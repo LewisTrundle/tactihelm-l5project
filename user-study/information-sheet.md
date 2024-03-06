@@ -18,7 +18,7 @@ This evaluation requires the use of the following equipment. Before starting the
 
 ### What is TactiHelm?
 
-TactiHelm is a smart-helmet which provides vibrotactile feedback to a cyclist warning them of an approaching vehicle. The helmet connects to a bike radar, attached to the rear of a users bike. The radar detects the approaching vehicle and communicates this information to the helmet. The helmet uses this information to activate the vibrational motors inside the helmet - activating them in some pattern, from which the cyclist can interpret information about the approaching vehicle.
+TactiHelm is a smart-helmet which provides vibrotactile feedback to a cyclist warning them of an approaching vehicle. The helmet connects to a bike radar, attached to the rear of a user's bike. The radar detects the approaching vehicle and communicates this information to the helmet. The helmet uses this information to activate the vibrational motors inside the helmet - activating them in some pattern, from which the cyclist can interpret information about the approaching vehicle.
 
 ### The Helmet
 
@@ -49,9 +49,9 @@ Please ensure that you read the [user manual](../user-manual.md) before using Ta
 
 ## Performing the Evaluation
 
-Record gps data on app.
-
-If you are comfortable doing so, please complete route information, otherwise
+!!!!!
+STILL TO COMPLETE
+!!!!!
 
 ## Questionnaires
 
@@ -66,65 +66,3 @@ An online version of this can be found [here](https://www.keithv.com/software/na
 ### Usability Survey
 
 The usability survey can be found [here](https://forms.office.com/e/fHHZbRSN7M). This survey automatically saves and submits your results, so there is no need to take a picture of your results.
-
-
-
-
-
-
-
-whenever an event occurs. We define an event as one of the following: (1) the helmet vibrates, (2) they detect a vehicle behind them, (3) the vehicle behind them has 
-
-This is defined as: 
-
-What do you see? and What do you feel?
-or
-Any else which is relevant
-
-if you see a car, how close is it?
-if you feel a vibration, what do you think it's conveying?
-
-Examples:
-- I see a car really close to me but I didn't feel the helmet vibrate
-- I felt the helmet vibrate that a car is really close, and I see that it is.
-
-
-
-
-
-
-
-- did the bike radar detect vehicles?
-  - I see a car but it didn't vibrate
-  - It vibrated but I don't see a car
-  - I see a car and it vibrated
-
-- when it vibrates
-
-
-  - car was approaching but didn't vibrate at all
-  - car was approaching but I think it vibrated wrongly / didn't appropriately warn me
-  - it vibrated but I didn't see any car
-  - it vibrated correctly.
-- if the helmet vibrated what do you think it warned you of?
-
-Examples of potential scenarios and thoughts were provided.
-
-when they feel the helmet vibrate, think-aloud what , and if it is safe and appropriate to do so, perform a shoulder.
-
-if they spot an approaching vehicle, has the helmet appropriately warned them?
-Examples:
-- I see a vehicle behind me... Oh yeah the helmet has vibrated... I think the helmet told me properly where the car was.
-- there's a vehicle right behind me but the helmet didn't warn me
-- I think there's a vehicle very close to me, but my helmet says it's far away.
-
-Any other:
-- the helmet is comfy/uncomfy
-- it wouldv'e been nice if the helmet could've warned me of that
-- it's easy/difficult to feel these vibrations
-
-
-They don't have to strictly use the words: far, near, imminent.
-
-
-MAKE SURE PHONE IS FULL CHARGED.
