@@ -18,7 +18,7 @@ The task list is as follows:
 3. complete questionnaires and interview and return equipment.
 4. cycle from **home to work** normally and complete NASA-TLX questionnaire.
 
-Task 1 will be performed the day you are given TactiHelm. Tasks 2 and 3 will be performed the day after you are given TactiHelm. Task 4 can be performed any day within three days of performing the previous tasks. Please note that this experiment is not a test of your ability.
+Task 1 will be performed the day you are given TactiHelm. Tasks 2 and 3 will be performed the day after you are given TactiHelm. Task 4 can be performed any day within seven days of performing the previous tasks. Please note that this experiment is not a test of your ability.
 
 **What data will you collect?**
 
