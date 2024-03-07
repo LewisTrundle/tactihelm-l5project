@@ -30,7 +30,6 @@ Task 1 will be performed the day you are given TactiHelm. Tasks 2 and 3 will be 
 
 Please note that your data is and will remain completely confidential, and will be used solely for the purpose of this research project. You can of course request that your data be removed at any time, including during or after the study.
 
-
 **What if I no longer want to participate?**
 You are welcome to withdraw from the experiment at any time without prejudice. If you do so, then please note that it will not be possible for you to be debriefed about the purposes of the experiment.
 

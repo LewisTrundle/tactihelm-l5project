@@ -2,7 +2,7 @@
 
 ## Important Information
 
-Before proceeding with any tasks, please ensure you have fully read the [information sheet](./information-sheet.md) and [user manual](./user-manual.md).
+Before proceeding with any tasks, please ensure you have fully read the [information sheet](./information-sheet.md) and [user manual](../user-guide/user-manual.md).
 
 - If you have opted not to record your GPS data, then please ignore any instructions regarding how to do so.
 - Please remember to turn on and off the helmet, bike radar, and headpiece between usage.

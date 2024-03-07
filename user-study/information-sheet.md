@@ -3,7 +3,7 @@
 ## Important Links
 
 - [Task List](./task-list.md)
-- [User Manual](../user-manual.md)
+- [User Manual](../user-guide/user-manual.md)
 - [NASA-TLX Questionnaire](https://www.keithv.com/software/nasatlx/nasatlx.html)
 - [Usability Questionnaire](https://forms.office.com/e/fHHZbRSN7M)
 - [2469635t@student.gla.ac.uk](mailto:2469635t@student.gla.ac.uk)
@@ -13,8 +13,8 @@
 This evaluation requires the use of the following equipment. Before starting the study, please ensure you have read the required information and you understand how to operate this equipment:
 
 - The TactiHelm helmet
-- A bike radar
-- A headset
+- The bike radar
+- The headset
 
 ### What is TactiHelm?
 
@@ -48,6 +48,9 @@ The helmet will only vibrate under two conditions:
 Please ensure that you read the [user manual](../user-manual.md) before using TactiHelm.
 
 ## Performing the Evaluation
+
+- Prioritise cycling safety above the evaluation
+- 
 
 !!!!!
 STILL TO COMPLETE

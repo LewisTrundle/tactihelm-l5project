@@ -57,6 +57,3 @@ Any other:
 
 
 They don't have to strictly use the words: far, near, imminent.
-
-
-MAKE SURE PHONE IS FULL CHARGED.
