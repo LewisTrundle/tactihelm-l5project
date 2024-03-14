@@ -1,9 +1,9 @@
 # Investigating Vibrotactile Distance Encodings: Participant Brief
 
-Hi! Thank you for volunteering to be part of our lab-study for our Tactihelm project.
+Hi! Thank you for volunteering to be part of our lab-study for our TactiHelm project.
 
-**What is Tactihelm?**
-Tactihelm is a smart-helmet which provides vibrotactile feedback to a cyclist warning them of an approaching vehicle. The helmet connects to a bike radar, attached to the rear of a users bike. The radar detects the approaching vehicle and communicates this information to the helmet. The helmet uses this information to activate the vibrational motors inside the helmet - activating them in some pattern, from which the user can interpret information about the approaching vehicle.
+**What is TactiHelm?**
+TactiHelm is a smart-helmet which provides vibrotactile feedback to a cyclist warning them of an approaching vehicle. The helmet connects to a bike radar, attached to the rear of a users bike. The radar detects the approaching vehicle and communicates this information to the helmet. The helmet uses this information to activate the vibrational motors inside the helmet - activating them in some pattern, from which the user can interpret information about the approaching vehicle.
 
 **What am I doing here today?**
 We would like to investigate how information about an approaching vehicle can be effectively encoded and conveyed to a cyclist using vibrotactile cues with the helmet. Using our fixed arrangement of vibrational motors within the helmet, we have defined six encoding schemes (the details of which will be explained during the study). In-order to find out which of these schemes is most appropriate, we need the opinions of cyclists, such as yourself.
