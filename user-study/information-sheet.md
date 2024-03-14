@@ -1,20 +1,6 @@
 # TactiHelm User Study: Information Sheet
 
-## Important Links
-
-- [Task List](./task-list.md)
-- [User Manual](../user-guide/user-manual.md)
-- [NASA-TLX Questionnaire](https://www.keithv.com/software/nasatlx/nasatlx.html)
-- [Usability Questionnaire](https://forms.office.com/e/fHHZbRSN7M)
-- [2469635t@student.gla.ac.uk](mailto:2469635t@student.gla.ac.uk)
-
 ## Setup and Equipment
-
-This evaluation requires the use of the following equipment. Before starting the study, please ensure you have read the required information and you understand how to operate this equipment:
-
-- The TactiHelm helmet
-- The bike radar
-- The headset
 
 ### What is TactiHelm?
 
@@ -30,12 +16,7 @@ Three vibration motors (tactors) have been placed inside the helmet, equidistant
 
 We believe an appropriate way of warning a cyclist of an approaching vehicle, is to convey to them the *following distance* of the vehicle behind. Despite being called the *following distance*, this is actually a measure of the time it would take the vehicle following behind to reach your location, if you were to suddenly stop. In this study, we have split this metric into three discrete categories: *far*, *near*, and *imminent*. These three values are used to decide how to vibrate the helmet.
 
-The helmet will vibrate using what's called a **wave pattern**. This vibrates all the tactors (starting at the rear) in sequence, up to a specific point, relative to the detected distance. Hence the name 'Wave', as the tactors are activated like a wave across your scalp. In addition to this, the vibrational pattern has a **varying duration**. This means the number of times the vibrational pattern repeats, depends on the distance. This is described in the table below.
-
-The helmet will only vibrate under two conditions:
-
-- a vehicle is first detected.
-- the following distance of the closest detected vehicle changes category.
+The helmet will vibrate using what's called a **wave pattern**. This vibrates all the tactors (starting at the rear) in sequence, up to a specific point, relative to the detected distance. Hence the name 'Wave', as the tactors are activated like a wave across your scalp. In addition to this, the vibrational pattern has a **varying duration**. This means the number of times the vibrational pattern repeats, depends on the distance. This is described in the table below. The evaluator will now activate the vibrational cue for each distance. If needed, please feel free to ask the evaluator to activate a cue again.
 
 | Distance |   Activated Tactors  |
 |:--------:|:--------------------:|
@@ -43,29 +24,72 @@ The helmet will only vibrate under two conditions:
 |   Near   |    Rear **then** Mid (x2 times)  |
 | Imminent | Rear, **then** Mid, **then** Front (x3 times) |
 
-### User Manual
+The helmet will only vibrate under two conditions:
+
+- a vehicle is first detected.
+- the following distance of the closest detected vehicle changes category.
+
+## User Manual
 
 Please ensure that you read the [user manual](../user-manual.md) before using TactiHelm.
 
 ## Performing the Evaluation
 
-- Prioritise cycling safety above the evaluation
-- 
+### What is a Think-Aloud Evaluation?
 
-!!!!!
-STILL TO COMPLETE
-!!!!!
+A think-aloud evaluation is a method where you verbalize their thoughts, perceptions, actions, and feelings as they occur. For this study, we're asking you to do this whilst you cycle with TactiHelm in traffic. This continuous verbal feedback will help us capture your real-time interpretation of the helmet's vibrational cues and your situational awareness.
 
-## Questionnaires
+### What should I talk about?
 
-After completion of your second primary commute, you will be asked to complete two questionnaires: the NASA Task Load Index questionnaire, and a usability survey.
+While cycling, you'll may encounter a variety of different events, for example:
 
-### Nasa-TLX Questionnaire
+- The helmet vibrates to indicate the proximity of an approaching vehicle (far, near, imminent).
+- You visually detect a vehicle approaching from behind.
+- Any other relevant observations or feelings you experience during the ride.
 
-The [NASA Task Load Index questionnaire](https://humansystems.arc.nasa.gov/groups/tlx/) is a subjective workload assessment tool, which provides respondents with an overall score regarding their mental, physical, and temporal demand, performance, effort, and frustration, in completing a task.
+Whenever you have any thought regarding your cycling experience, please audibly articulate them. It may help to describe:
 
-An online version of this can be found [here](https://www.keithv.com/software/nasatlx/nasatlx.html). Please read it carefully before completing it. Once complete, please take a clear picture or screenshot of your results, and send this to your evaluator. Here is an [example](./nasa-example.png).
+- What you see: The presence, distance, and speed of vehicles around you.
+- What you physically feel: Can you feel the helmet vibrate? Can you interpret the vibrational cues?
+- What you mentally feel: Do you feel safe? Do you feel aware of what's around you? Are you having to concentrate more or less than usual?
+- Any additional observations: Is the helmet comfortable? Were there any discrepancies between what you feel and what you see.
 
-### Usability Survey
+Examples of Think-Aloud Comments:
 
-The usability survey can be found [here](https://forms.office.com/e/fHHZbRSN7M). This survey automatically saves and submits your results, so there is no need to take a picture of your results.
+- "I see a car really close to me... but I didn't feel the helmet vibrate."
+- "The helmet vibrated... I think it means a car is really close, and I see that it is."
+- "I felt the helmet vibrate a far away distance... but I see a car really close to me."
+- "The helmet feels a bit light/heavy."
+- "I think the helmet might have vibrated, but I'm having to concentrate to feel it."
+
+### Important Tips
+
+- First and foremost, your safety is the most important. Please do not behave any differently from how you normally would, and focus on safe cycling.
+- There's no need to try and filter any of your thoughts. We are not assessing you on correct grammar, nor the sensibility and correctness of your answers and cycling. Please try and speak naturally and unfiltered so that you can focus on your cycling.
+- Please feel free to express any thoughts, even if they seem unrelated or trivial. Sometimes, minor observations lead to significant insights.
+
+## Task List
+
+For a detailed description of your required tasks, please see the [task list](task-list.md).
+
+## Last Steps
+
+It is important that before we finish this briefing session, you understand the following. Please carefully read each statement and tell the evaluator whether you agree with each point.
+
+- You know what TactiHelm is and understand how, why, and when it will vibrate.
+- You feel comfortable wearing the helmet during your commutes and you can feel the vibrations.
+- You understand your required tasks for this study.
+- You know how to turn on and off the helmet.
+- You know how to turn on and off the bike radar and how to attach it to your bike.
+- You know how to turn on and off the headset and how to put it on.
+- You have the Voice Recorder app, Ride with GPS app, and TactiHelm Controller app downloaded on your mobile device.
+- (If given a temporary device) you know the passcode to the mobile device.
+- You know how to use the controller app to connect using Bluetooth to the helmet and bike radar.
+- You know how to use the controller app to start and stop receiving vibrations.
+- You know how to start and stop recording your voice for the think-aloud evaluation.
+- You know how to perform a think-aloud evaluation.
+- You know how to record the GPS data of your commute.
+- You know who to contact if you have any questions.
+- You know how to put the rain cover on the helmet.
+- You know where look in your participant pack if you forget any of the above.
+- You understand to cycle as you normally would and to prioritise your own safety over the evaluation.
