@@ -1,5 +1,9 @@
 # User Manual
 
+## Demonstration
+
+Go through a demonstration, putting the radar in debug mode, etc. and
+
 ## Downloading Apps
 
 ### TactiHelm Controller
