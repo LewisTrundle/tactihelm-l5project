@@ -80,25 +80,35 @@ The Ride with GPS application is needed to record your GPS data during your comm
 
 The bike radar can be attached to the back of your bike by using the provided attachment as seen in the video.
 
+<img src="radar-attach.gif" alt="Attach Bike Radar" width="100">
+
 ### Attaching the Phone Holder
 
 The phone holder can be attached to the handlebars of your bike as seen in the video.
+
+<img src="phone-holder.gif" alt="Attach Phone Holder" width="100">
 
 ## Turning On/Off the Equipment
 
 ### Turning On/Off the Helmet
 
-To turn on or off the helmet, first you'll need to take off the rain cover. Please take off the rain cover from the front of the helmet. The helmet can then be turned on by connecting the cable connected to the 9V battery to the Arduino DC Barrel Power Jack; the helmet is turned off by removing the connected cable. Please make sure to put the rain cover back on the helmet, by putting it on from the back first and tightening it as much as you can
+To turn on or off the helmet, first you'll need to take off the rain cover. The helmet can then be turned on by connecting the cable connected to the 9V battery to the Arduino DC Barrel Power Jack; the helmet is turned off by removing the connected cable. Please make sure to put the rain cover back on the helmet and tighten it as much as you can.
+
+<img src="helmet.gif" alt="Helmet" width="100">
 
 ### Turning On/Off the Bike Radar
 
 To turn on or off the sensor, hold the power button for 3s as seen in the video.
 
+<img src="radar-on.gif" alt="Radar On" width="100">
+
 ### Turning On/Off the Headset
 
 The headset can be turned on and off by holding the power button for 3 seconds as seen in the video.
 
-## Using the TactiHelm Controller
+<img src="headpiece.gif" alt="Headset" width="100">
+
+## Using the TactiHelm Controller and Recording your Ride
 
 ### Connecting to the Helmet and Bike Radar
 
@@ -114,16 +124,12 @@ Once you are ready to start cycling and receiving vibrations from the helmet, se
 
 **Important: the helmet will only receive vibrations while your mobile device is on, unlocked, and on the TactiHelm Controller app.**
 
-## Using the Headset
+### Using the Headset
 
 To connect to the headset, use your mobile device and select the Bluetooth device named 'K18'. Once this is connected, you can start recording audio by navigating to your voice recorder app and selecting 'Record Audio'. Press the same button again to stop recording audio.
 
-## Recording your Route
+### Recording your Route
 
 To record your route data, open the Ride with GPS app and simply press 'Start Ride' to start recording your route. To stop recording, press the 'Stop Ride' button.
 
-## Miscellaneous
-
-- change lights of sensor.
-- request permissions
-- manually test far, near, and imminent vibrations
+<img src="controller-demo.gif" alt="Controller Demo" width="100">
