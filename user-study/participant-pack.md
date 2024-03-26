@@ -1,7 +1,7 @@
 # User Study: Participant Pack
 
 - [Participant Brief](./participant-brief.md)
-- [Participant Debrief](participant-debrief.md)
+- [Participant Debrief](./participant-debrief.md)
 - [Information Sheet](./information-sheet.md)
 - [Task List](./task-list.md)
 - [User Manual](../user-guide/user-manual.md)

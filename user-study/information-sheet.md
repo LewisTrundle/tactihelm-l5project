@@ -31,7 +31,7 @@ The helmet will only vibrate under two conditions:
 
 ## User Manual
 
-Please ensure that you read the [user manual](../user-manual.md) before using TactiHelm.
+Please ensure that you read the [user manual](./user-manual.md) before using TactiHelm.
 
 ## Performing the Evaluation
 
@@ -70,7 +70,7 @@ Examples of Think-Aloud Comments:
 
 ## Task List
 
-For a detailed description of your required tasks, please see the [task list](task-list.md).
+For a detailed description of your required tasks, please see the [task list](./task-list.md).
 
 ## Last Steps
 
