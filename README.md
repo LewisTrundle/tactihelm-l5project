@@ -13,7 +13,7 @@ Please visit the following links to see the various parts of this project:
 - [Arduino Code](./arduino-code/)
 - [User Guide](./user-guide/)
 - [Meeting Minutes](./meeting-minutes/)
-- [Timelog](./timelog/)
+- [Timelog](./timelog.md)
 - [TactiHelm Controller Application Repo](https://github.com/LewisTrundle/tactihelm-controller)
 
 *Developed as part of my Level 5 Computing Science MSci Project at the University of Glasgow.*
