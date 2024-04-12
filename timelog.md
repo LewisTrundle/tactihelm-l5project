@@ -244,18 +244,31 @@
 * *6 hours* Coding infrastructure for user study.
 
 
-## Week 21 [26/02/24]
+## Week 21 [26/02/24] - 21 hours
 ### 27 Feb 2024
 * *3 hours* Conducting lab-study.
 ### 28 Feb 2024
 * *4 hours* Conducting lab-study.
 ### 29 Feb 2024
 * *6 hours* Continued with analysis of lab-study results
+### 02 Feb 2024
+* *8 hours* Further analysis of lab-study.
 
 
-## Week 22 [04/03/24]
-## Week 23 [11/03/24]
-## Week 24 [18/03/24]
-## Week 25 [25/03/24]
-## Week 26 [01/04/24]
-## Week 27 [08/04/24]
+## Week 22 [04/03/24] - 20 hours
+Week was mainly composed of gaining ethical permission of the user-study and redesigning the helmet.
+
+## Week 23 [11/03/24] - 32 hours
+Started writing the dissertation and testing the helmet.
+
+## Week 24 [18/03/24] - 20 hours
+Conducting user study.
+
+## Week 25 [25/03/24] - 30 hours
+Writing dissertation.
+
+## Week 26 [01/04/24] - 40 hours
+Writing dissertation.
+
+## Week 27 [08/04/24] - 40 hours
+Finishing the project!
